@@ -8,7 +8,7 @@ The rapid proliferation of multimodal misinformation presents significant challe
 
 <figure align="center">
     <img src="Fig/overview.png" alt="overview" style="width: 50%;"/>
-    <figcaption>Overview of the RAMA workflow. RAMA consists of three cascaded modules: WebRetriever, VLJudge, and DecisionFuser.</figcaption>
+    <figcaption style="font-style: italic; text-align: center; margin-top: 8px;">Overview of the RAMA workflow. RAMA consists of three cascaded modules: WebRetriever, VLJudge, and DecisionFuser.</figcaption>
 </figure>
 
 This work is a submission for the [ACMMM25 - Grand Challenge on Multimedia Verification](https://multimedia-verification.github.io/). The performance (F1-score) achieved on the Public Test is 91.00%, while the performance on the Hidden Test is 76.61%, verified by the Competition Organizer. Below, we present two representative cases that demonstrate the effectiveness of the RAMA framework in detecting multimedia misinformation.
