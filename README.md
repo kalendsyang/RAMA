@@ -7,7 +7,7 @@
 The rapid proliferation of multimodal misinformation presents significant challenges for automated fact-checking systems, especially when claims are ambiguous or lack sufficient context. We introduce RAMA, a novel retrieval-augmented multi-agent framework designed for verifying multimedia misinformation. RAMA incorporates three core innovations: (1) strategic query formulation that transforms multimodal claims into precise web search queries; (2) cross-verification evidence aggregation from diverse, authoritative sources; and (3) a multi-agent ensemble architecture that leverages the complementary strengths of multiple multimodal large language models and prompt variants.
 
 <figure align="center">
-    <img src="Fig/overview.png" alt="overview"/>
+    <img src="Fig/overview.png" alt="overview" style="width: 50%;"/>
     <figcaption>Overview of the RAMA workflow. RAMA consists of three cascaded modules: WebRetriever, VLJudge, and DecisionFuser.</figcaption>
 </figure>
 
