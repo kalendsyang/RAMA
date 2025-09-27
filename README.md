@@ -7,17 +7,16 @@
 The rapid proliferation of multimodal misinformation presents significant challenges for automated fact-checking systems, especially when claims are ambiguous or lack sufficient context. We introduce RAMA, a novel retrieval-augmented multi-agent framework designed for verifying multimedia misinformation. RAMA incorporates three core innovations: (1) strategic query formulation that transforms multimodal claims into precise web search queries; (2) cross-verification evidence aggregation from diverse, authoritative sources; and (3) a multi-agent ensemble architecture that leverages the complementary strengths of multiple multimodal large language models and prompt variants.
 
 <div align="center">
-<img src="Fig/overview.png" alt="overview" width="30%"/><br>
-Overview of the RAMA workflow. RAMA consists of three cascaded modules: WebRetriever, VLJudge, and DecisionFuser.
+<img src="Fig/overview.png" alt="overview" width="40%"/><br>
+Overview of the RAMA workflow.
 </div>
 
 This work is a submission for the [ACMMM25 - Grand Challenge on Multimedia Verification](https://multimedia-verification.github.io/). The performance (F1-score) achieved on the Public Test is 91.00%, while the performance on the Hidden Test is 76.61%, verified by the Competition Organizer. Below, we present two representative cases that demonstrate the effectiveness of the RAMA framework in detecting multimedia misinformation.
 
-<figure align="center">
-    <img src="Fig/case.png" alt="case"/>
-    <figcaption><strong>Case 1:</strong> Debunking a Celebrity Death Hoax. RAMA effectively distinguishes between viral misinformation and factual reporting through evidence-based reasoning. <strong>Case 2:</strong> Verifying an Unlikely Real Event. RAMA successfully overcomes cognitive biases in visual interpretation by grounding its analysis in retrieved factual evidence.</figcaption>
-    </figcaption>
-</figure>
+<div align="center">
+<img src="Fig/case.png" alt="case"/><br>
+<strong>Case 1:</strong> Debunking a Celebrity Death Hoax. RAMA effectively distinguishes between viral misinformation and factual reporting through evidence-based reasoning. <strong>Case 2:</strong> Verifying an Unlikely Real Event. RAMA successfully overcomes cognitive biases in visual interpretation by grounding its analysis in retrieved factual evidence.
+</div>
 
 We welcome you to experience and use our solution!
 
