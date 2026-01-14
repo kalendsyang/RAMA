@@ -1,7 +1,5 @@
 # RAMA: Retrieval-Augmented Multi-Agent Framework for Misinformation Detection in Multimodal Fact-Checking
 
-[![arXiv](https://img.shields.io/badge/arXiv-2507.09174-red)](https://arxiv.org/abs/2507.09174)
-
 ## Introduction
 
 The rapid proliferation of multimodal misinformation presents significant challenges for automated fact-checking systems, especially when claims are ambiguous or lack sufficient context. We introduce RAMA, a novel retrieval-augmented multi-agent framework designed for verifying multimedia misinformation. RAMA incorporates three core innovations: (1) strategic query formulation that transforms multimodal claims into precise web search queries; (2) cross-verification evidence aggregation from diverse, authoritative sources; and (3) a multi-agent ensemble architecture that leverages the complementary strengths of multiple multimodal large language models and prompt variants.
@@ -101,19 +99,3 @@ After changing the **TEST_JSON_PATH** parameter, you also need to put the privat
 
 ### Optional
 Our pipeline needs to save many intermediate results, such as agent search results, multi-modal inference results and voting results. You can modify the save path parameter in **cell 1** to **avoid overwriting the public_test.json results**, for example, replace the *"public"* with *"private"*.
-
-## Citation
-
-If you find our paper and code useful for your research, please consider giving a star :star: and citation :pencil: :)
-
-```BibTeX
-@misc{yang2025rama,
-      title={RAMA: Retrieval-Augmented Multi-Agent Framework for Misinformation Detection in Multimodal Fact-Checking}, 
-      author={Shuo Yang and Zijian Yu and Zhenzhe Ying and Yuqin Dai and Guoqing Wang and Jun Lan and Jinfeng Xu and Jinze Li and Edith C. H. Ngai},
-      year={2025},
-      eprint={2507.09174},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2507.09174}, 
-}
-```
